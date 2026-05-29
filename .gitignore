@@ -14,7 +14,9 @@ output_videos/*
 models/*
 !models/.gitkeep
 *.pt
+models/last.pt
 *.zip
+models-*.zip
 
 presentation/captures/*
 !presentation/captures/.gitkeep

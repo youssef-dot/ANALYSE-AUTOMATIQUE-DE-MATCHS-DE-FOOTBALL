@@ -113,3 +113,13 @@ Vidéo → Détection/Suivi → Interpolation ballon → Positions pixels
      → Compensation caméra → Coordonnées terrain → Vitesse/Distance
      → Équipes → Possession → Rendu → output_video.mp4
 ```
+
+## Ressources
+
+| Ressource | Lien |
+|-----------|------|
+| Dataset YOLO (Roboflow) | [Football Players Detection — dataset v1](https://universe.roboflow.com/project/football-players-detection-3zvbc/dataset/1) |
+| Notebook d’entraînement | [`football dataset/`](football%20dataset/) — `football_training_yolo_v5 (2).ipynb` |
+| Vidéo d’exemple | [Google Drive — sample video](https://drive.google.com/file/d/1t6agoqggZKx6thamUuPAIdN_1zR9v9S_/view) |
+
+Après clonage du dépôt : télécharger `best.pt` (entraîné sur ce dataset) dans `models/`, et placer une vidéo MP4 dans `input_videos/` (ou utiliser le lien Drive ci-dessus).
