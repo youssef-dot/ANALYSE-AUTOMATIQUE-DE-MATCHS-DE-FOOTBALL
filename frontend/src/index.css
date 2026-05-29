@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0b1220;
+  --surface: #141d2f;
+  --border: #243049;
+  --text: #e8eef8;
+  --muted: #8b9bb8;
+  --accent: #3dd68c;
+  --accent-dim: #2a9d63;
+  --danger: #f87171;
+  --warn: #fbbf24;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", system-ui, sans-serif;
+  background: radial-gradient(ellipse 120% 80% at 50% -20%, #1a2d4a 0%, var(--bg) 55%);
+  color: var(--text);
+}

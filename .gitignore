@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+web_jobs/
+stubs/*.pkl
+input_videos/*
+!input_videos/.gitkeep
+output_videos/*
+!output_videos/.gitkeep
+
+models/*
+!models/.gitkeep
+*.pt
+*.zip
+
+presentation/captures/*
+!presentation/captures/.gitkeep
+
+frontend/node_modules/
+frontend/dist/
+
+# Fichiers locaux / brouillons
+New Text Document.txt
